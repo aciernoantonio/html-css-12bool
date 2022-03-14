@@ -11,9 +11,17 @@
     height: 100px;
   }
 
+  .debug [class^="nested"] {
+    background-color: rgb(28, 253, 28);
+    border: 1px solid rgb(28, 99, 253);
+    height: 50px;
+  }
+
   /* Utility */
-  .flex {
+  .flex_center {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .white{
@@ -25,6 +33,17 @@
  .align_center{
     line-height: 100px;
     text-align: center;
+ }
+
+ .nested_center{
+    line-height: 50px;
+    text-align: center;
+ }
+
+ /* Spaces */
+
+ .mt-2{
+     margin-top: 2rem;
  }
   
   /* Grid structure */
@@ -39,13 +58,21 @@
   [class^="col"] {
     padding: 0 1rem;
   }
+
+  [class^="nested"] {
+    padding: 0 1rem;
+  }
   
   
   [class*="col-"] {
     flex: 0 0 auto;
   }
+
+  [class*="nested"] {
+    flex: 0 0 auto;
+  }
   
-  .col {
+  .col{
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
@@ -156,5 +183,65 @@
   .col_offset_11 {
     margin-left: calc((100% / 12) * 11);
   }
+
+  /* Nested */
   
- 
+  .nested_1 {
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+  }
+  
+  .nested_2 {
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+  }
+  
+  .nested_3 {
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+  }
+  
+  .nested_4 {
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+  }
+  
+  .nested_5 {
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+  }
+  
+  .nested_6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+  .nested_7 {
+    flex-basis: calc((100% / 12) *7);
+    max-width: calc((100% / 12) * 7);
+  }
+  
+  .nested_8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+  }
+  
+  .nested_9 {
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+  }
+  
+  .nested_10 {
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+  }
+  
+  .nested_11 {
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+  }
+  
+  .nested_12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
