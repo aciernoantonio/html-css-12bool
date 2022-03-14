@@ -26,6 +26,7 @@
 
   .white{
       color: white;
+      font-size: 0.75rem;
   }
 
   /* align */
@@ -42,8 +43,8 @@
 
  /* Spaces */
 
- .mt-2{
-     margin-top: 2rem;
+ .pdb_2{
+    padding-bottom: 2rem;
  }
   
   /* Grid structure */
@@ -52,7 +53,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+  /*   margin: 0 -1rem; */
   }
   
   [class^="col"] {
