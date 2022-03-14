@@ -1,0 +1,43 @@
+#site_header{
+    background-color: coral;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50px;
+}
+
+.logo_text{
+    color: white;
+    margin-left: 10px;
+}
+
+.left_menu,
+.main_menu,
+.right_menu{
+    align-items: center;
+}
+
+.main_menu{
+    gap: 20px;
+    justify-content: center;
+}
+
+.main_menu > a{
+    color: white;
+}
+
+.right_menu{
+    justify-content: flex-end;
+}
+
+.login_btn{
+    color: coral;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
