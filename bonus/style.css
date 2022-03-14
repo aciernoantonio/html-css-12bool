@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 /* header */
 
 #site_header{
@@ -63,10 +67,6 @@ main img{
 
 /* story */
 
-.story_img{
-    justify-content: flex-end;
-}
-
 
 .story_text{
     flex-direction: column;
@@ -80,3 +80,18 @@ main img{
     justify-content: center;
 }
 
+/* footer */
+
+#site_footer{
+    background-color: coral;
+}
+
+.footer_menu .col_2{
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+footer .col_2 > a{
+    color: white;
+    line-height: 2rem;
+}
