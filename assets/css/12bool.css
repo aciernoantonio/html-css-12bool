@@ -6,7 +6,7 @@
   }
   
   .debug [class^="col"] {
-    background-color: blue;
+    background-color: rgb(28, 99, 253);
     border: 1px solid white;
     height: 100px;
   }
