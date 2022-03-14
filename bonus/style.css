@@ -1,3 +1,11 @@
+/* common */
+
+.coral{
+    color: coral;
+}
+
+/* header */
+
 #site_header{
     background-color: coral;
 }
@@ -41,3 +49,22 @@
     border-radius: 20px;
 }
 
+/* main */
+
+.story{
+    margin-top: 2rem;
+}
+
+.story_img{
+    justify-content: flex-end;
+}
+
+.story img{
+    width: 500px;
+    height: 400px;
+}
+
+.story_text{
+    flex-direction: column;
+    justify-content: center;
+}
